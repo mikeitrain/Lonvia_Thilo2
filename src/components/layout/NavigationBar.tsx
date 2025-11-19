@@ -279,12 +279,16 @@ export const NavigationBar: React.FC = () => {
               <Image
                 src="/Lonvia-Logo.svg"
                 alt="Lonvia"
+                width={200}
+                height={64}
                 priority
                 className="hidden md:block h-16 w-auto"
               />
               <Image
                 src="/Lonvia-Kurzlogo.svg"
                 alt="Lonvia"
+                width={64}
+                height={64}
                 priority
                 className="block md:hidden h-16 w-auto"
               />
