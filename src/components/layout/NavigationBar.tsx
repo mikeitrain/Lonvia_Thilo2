@@ -143,6 +143,11 @@ export const NavigationBar: React.FC = () => {
     setIsMenuOpen(false);
   };
 
+  const handleLonviaLabsClick = () => {
+    router.push("/lonvia-labs");
+    setIsMenuOpen(false);
+  };
+
   const handleLogout = async () => {
     await logout();
     addNotification('success', t('message.loggedOut'), 3000);
@@ -357,6 +362,7 @@ export const NavigationBar: React.FC = () => {
             </button>
 
             <button
+              onClick={handleLonviaLabsClick}
               className="text-foreground-secondary hover:text-primary-600 transition-colors"
             >
               {t('nav.lonviaLabs')}
@@ -435,6 +441,20 @@ export const NavigationBar: React.FC = () => {
                 {t('nav.ourTeam')}
               </button>
 
+              <button
+                onClick={handleContactClick}
+                className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-foreground-secondary hover:text-primary-600 hover:bg-background-secondary"
+              >
+                {t('nav.contact')}
+              </button>
+
+              <button
+                onClick={handleLonviaLabsClick}
+                className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-foreground-secondary hover:text-primary-600 hover:bg-background-secondary"
+              >
+                {t('nav.lonviaLabs')}
+              </button>
+
               <Link
                 href="/#about"
                 className="block px-3 py-2 rounded-md text-base font-medium text-foreground-secondary hover:text-primary-600 hover:bg-background-secondary"
@@ -442,13 +462,6 @@ export const NavigationBar: React.FC = () => {
               >
                 {t('nav.about')}
               </Link>
-
-              <button
-                onClick={handleContactClick}
-                className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-foreground-secondary hover:text-primary-600 hover:bg-background-secondary"
-              >
-                {t('nav.contact')}
-              </button>
 
               {isAuthenticated ? (
                 <>
