@@ -14,6 +14,13 @@ export const ServicesSection: React.FC = () => {
     { name: t('services.internalMedicine'), desc: t('services.internalMedicine.desc'), icon: "🩺", route: "/internal-medicine" },
     { name: t('services.surgery'), desc: t('services.surgery.desc'), icon: "🏥", route: "/surgery" },
     { name: t('services.oncology'), desc: t('services.oncology.desc'), icon: "🎗️", route: "/oncology" },
+    { name: t('services.ent'), desc: t('services.ent.desc'), icon: "👂", route: "/ent" },
+    { name: t('services.ophthalmology'), desc: t('services.ophthalmology.desc'), icon: "👁️", route: "/ophthalmology" },
+    { name: t('services.dermatology'), desc: t('services.dermatology.desc'), icon: "🧴", route: "/dermatology" },
+    { name: t('services.neurology'), desc: t('services.neurology.desc'), icon: "🧠", route: "/neurology" },
+    { name: t('services.pediatrics'), desc: t('services.pediatrics.desc'), icon: "👶", route: "/pediatrics" },
+    { name: t('services.geriatrics'), desc: t('services.geriatrics.desc'), icon: "👴", route: "/geriatrics" },
+    { name: t('services.otherMedicalDomains'), desc: t('services.otherMedicalDomains.desc'), icon: "🏥", route: "/other-medical-domains" },
   ];
 
   return (

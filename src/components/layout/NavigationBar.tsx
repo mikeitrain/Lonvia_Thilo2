@@ -125,6 +125,41 @@ export const NavigationBar: React.FC = () => {
       route: "/oncology",
       icon: "🎗️"
     },
+    {
+      name: t('services.ent'),
+      route: "/ent",
+      icon: "👂"
+    },
+    {
+      name: t('services.ophthalmology'),
+      route: "/ophthalmology",
+      icon: "👁️"
+    },
+    {
+      name: t('services.dermatology'),
+      route: "/dermatology",
+      icon: "🧴"
+    },
+    {
+      name: t('services.neurology'),
+      route: "/neurology",
+      icon: "🧠"
+    },
+    {
+      name: t('services.pediatrics'),
+      route: "/pediatrics",
+      icon: "👶"
+    },
+    {
+      name: t('services.geriatrics'),
+      route: "/geriatrics",
+      icon: "👴"
+    },
+    {
+      name: t('services.otherMedicalDomains'),
+      route: "/other-medical-domains",
+      icon: "🏥"
+    },
   ];
 
   const handleServiceClick = (route: string) => {

@@ -440,6 +440,13 @@ const translations = {
     'services.internalMedicine': 'Internal Medicine',
     'services.surgery': 'Surgery',
     'services.oncology': 'Oncology',
+    'services.ent': 'ENT (Ear, Nose & Throat)',
+    'services.ophthalmology': 'Ophthalmology',
+    'services.dermatology': 'Dermatology',
+    'services.neurology': 'Neurology',
+    'services.pediatrics': 'Pediatrics',
+    'services.geriatrics': 'Geriatrics',
+    'services.otherMedicalDomains': 'Other Medical Domains',
     
     // Landing Page
     'landing.hero.title': 'Live longer, live well.',
@@ -502,6 +509,13 @@ const translations = {
     'services.internalMedicine.desc': 'Diagnosis and treatment of adult diseases and conditions.',
     'services.surgery.desc': 'Advanced surgical procedures across various medical specialties.',
     'services.oncology.desc': 'Comprehensive cancer care and treatment services.',
+    'services.ent.desc': 'Expert treatment for ear, nose, throat, and related head and neck conditions.',
+    'services.ophthalmology.desc': 'Comprehensive eye care and vision treatment services.',
+    'services.dermatology.desc': 'Specialized care for skin, hair, and nail conditions.',
+    'services.neurology.desc': 'Expert diagnosis and treatment of nervous system disorders.',
+    'services.pediatrics.desc': 'Comprehensive healthcare for infants, children, and adolescents.',
+    'services.geriatrics.desc': 'Specialized medical care focused on older adults.',
+    'services.otherMedicalDomains.desc': 'Specialized care across rare diseases and additional medical specialties.',
     
     // Contact Page
     'contact.title': 'Contact Us',

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Footer: React.FC = () => {
@@ -19,10 +20,10 @@ export const Footer: React.FC = () => {
                     <div>
                         <h4 className="text-base md:text-lg font-semibold mb-4">{t('footer.services')}</h4>
                         <ul className="space-y-2 text-sm md:text-base text-neutral-300">
-                            <li><a href="/urology" className="hover:text-primary-600 transition-colors">{t('services.urology')}</a></li>
-                            <li><a href="/orthopedics" className="hover:text-primary-600 transition-colors">{t('services.orthopedics')}</a></li>
-                            <li><a href="/oncology" className="hover:text-primary-600 transition-colors">{t('services.oncology')}</a></li>
-                            <li><a href="/surgery" className="hover:text-primary-600 transition-colors">{t('services.surgery')}</a></li>
+                            <li><Link href="/urology" className="hover:text-primary-600 transition-colors">{t('services.urology')}</Link></li>
+                            <li><Link href="/orthopedics" className="hover:text-primary-600 transition-colors">{t('services.orthopedics')}</Link></li>
+                            <li><Link href="/oncology" className="hover:text-primary-600 transition-colors">{t('services.oncology')}</Link></li>
+                            <li><Link href="/surgery" className="hover:text-primary-600 transition-colors">{t('services.surgery')}</Link></li>
                         </ul>
                     </div>
                     <div>
