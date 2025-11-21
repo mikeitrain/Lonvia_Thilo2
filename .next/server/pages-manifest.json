@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/404": "pages/404.js",
-  "/urology": "pages/urology.js"
+  "/urology": "pages/urology.js",
+  "/lonvia-labs": "pages/lonvia-labs.js"
 }
