@@ -1,7 +1,5 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { NavigationBar } from '@/components/layout/NavigationBar';
-import { Footer } from '@/components/layout/Footer';
 import { Card, CardContent } from '@/components/landing-page/card';
 import Image from 'next/image';
 import {
@@ -74,7 +72,6 @@ export default function OncologyPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background-primary">
-      <NavigationBar />
       <div className="w-full relative">
         <div className="relative overflow-hidden mt-4 md:rounded-5xl md:border md:border-border-primary md:max-w-[95%] md:mx-auto">
           <Image className="w-full h-[500px] object-cover" alt="Oncology" src="/test-1.jpg" width={1440} height={500} priority />
@@ -161,7 +158,6 @@ export default function OncologyPage() {
           </Card>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }

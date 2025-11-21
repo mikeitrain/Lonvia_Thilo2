@@ -1,7 +1,5 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { NavigationBar } from '@/components/layout/NavigationBar';
-import { Footer } from '@/components/layout/Footer';
 import { Card, CardContent } from '@/components/landing-page/card';
 import Image from 'next/image';
 import {
@@ -196,7 +194,6 @@ export default function OtherMedicalDomainsPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background-primary">
-      <NavigationBar />
 
       {/* Hero Section with large image */}
       <div className="w-full relative">
@@ -471,7 +468,6 @@ export default function OtherMedicalDomainsPage() {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 }
